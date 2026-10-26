@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  /* unset variables fall back to inheriting from the page */
+  color: var(--rs-text);
+  font-family: var(--rs-font);
+}
+.ratingsWrapper {
+  display: table;
+  border-spacing: 0 8px;
+  width: 100%;
+  font-family: inherit;
+}
+.ratingWrapper {
+  display: table-row;
+}

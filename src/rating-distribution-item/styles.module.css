@@ -1,0 +1,48 @@
+@keyframes widthAnimation {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 100%;
+  }
+}
+.barContainer {
+  background-color: var(--rs-track, #F2F2F2);
+  height: var(--rs-bar-height, 16px);
+  border-radius: var(--rs-radius, 4px);
+  width: 100%;
+  display: table-cell;
+}
+.filledBarContainer {
+  max-width: 100%;
+}
+.filledBar {
+  background-color: var(--rs-primary, #5D5FEF);
+  height: var(--rs-bar-height, 16px);
+  border-radius: var(--rs-radius, 4px);
+  overflow-x: visible;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.countContainer {
+  display: table-cell;
+  text-align: end;
+  padding-left: 5px;
+  vertical-align: middle;
+  font-size: 10px;
+  line-height: 17px;
+}
+.transitions {
+  transition: width 0.3s ease-in-out;
+}
+.animations {
+  animation-name: widthAnimation;
+  animation-duration: 300ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+.cursorPointer {
+  cursor: pointer;
+}

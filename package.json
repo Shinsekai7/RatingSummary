@@ -1,0 +1,31 @@
+{
+  "name": "rating-summary",
+  "version": "0.1.0",
+  "description": "React component that shows an average star rating and a per-rating distribution bar chart.",
+  "main": "src/index.tsx",
+  "types": "src/index.tsx",
+  "files": [
+    "src"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "scripts": {
+    "typecheck": "tsc"
+  },
+  "keywords": [
+    "react",
+    "rating",
+    "reviews",
+    "stars",
+    "summary"
+  ],
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "react": "^18.3.1",
+    "typescript": "^5.6.3"
+  }
+}
